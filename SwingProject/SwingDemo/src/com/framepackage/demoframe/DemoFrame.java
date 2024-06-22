@@ -22,7 +22,6 @@ public class DemoFrame extends JFrame {
 	/**
 	 * @wbp.nonvisual location=-45,359
 	 */
-
 	/**
 	 * Launch the application.
 	 */
