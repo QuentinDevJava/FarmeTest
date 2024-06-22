@@ -78,28 +78,11 @@ public class DemoFrame extends JFrame {
 		btnOk.addActionListener(e -> {
 		String n=txtName.getText();
 		int age = Integer.parseInt(txtAge.getText());
-		switch(n) {
-		case "Quentin":
-			 txtValeur.setText(n+" c'est un vrais DIEU :)");
-			 break;
-		case "Sarah" :
-			if (age==28)
-				txtValeur.setText(n+" as bien 28 ans :) ");
-			else
-				txtValeur.setText(n+" tu a 28 ans menteuse :@");
-		break;
-		default :
- 
-			   if(age<18)
-				   txtValeur.setText(n+" trop jeune DSL :'(");
-			   else
-				   txtValeur.setText(n+" tu peux faire l'amour :p");
-			   if(age>50) txtValeur.setText(n+" sera bientot mort :'(");
-
-				   
-			}
-			
-
+	   if(age<18)
+		   txtValeur.setText(n+" trop jeune DSL :'(");
+	   else
+		   txtValeur.setText(n+" tu peux entrer :p");
+	   if(age>50) txtValeur.setText(n+" dsl tu sera bientot mort :'(");
 		});
 		btnOk.setBackground(Color.GREEN);
 		btnOk.setFont(new Font(POLICENAME, Font.BOLD, 12));
